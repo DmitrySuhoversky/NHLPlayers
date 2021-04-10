@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		C92B3C232621AD1A005D219B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C222621AD1A005D219B /* AppDelegate.swift */; };
 		C92B3C252621AD1A005D219B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C242621AD1A005D219B /* SceneDelegate.swift */; };
-		C92B3C272621AD1A005D219B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C262621AD1A005D219B /* ViewController.swift */; };
 		C92B3C2A2621AD1A005D219B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92B3C282621AD1A005D219B /* Main.storyboard */; };
 		C92B3C2C2621AD1B005D219B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92B3C2B2621AD1B005D219B /* Assets.xcassets */; };
 		C92B3C2F2621AD1B005D219B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92B3C2D2621AD1B005D219B /* LaunchScreen.storyboard */; };
 		C92B3C3A2621AD1B005D219B /* NHLPlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C392621AD1B005D219B /* NHLPlayersTests.swift */; };
 		C92B3C452621AD1C005D219B /* NHLPlayersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C442621AD1C005D219B /* NHLPlayersUITests.swift */; };
+		C92B3C592621AF12005D219B /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C582621AF12005D219B /* PlayersViewController.swift */; };
+		C92B3C612621B35D005D219B /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C602621B35D005D219B /* PlayerDetailsViewController.swift */; };
+		C92B3C662621BA4F005D219B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C652621BA4F005D219B /* Player.swift */; };
+		C92B3C6B2621FADE005D219B /* TeamNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C6A2621FADE005D219B /* TeamNameViewController.swift */; };
+		C92B3C702621FFA0005D219B /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B3C6F2621FFA0005D219B /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		C92B3C1F2621AD1A005D219B /* NHLPlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHLPlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92B3C222621AD1A005D219B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C92B3C242621AD1A005D219B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C92B3C262621AD1A005D219B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C92B3C292621AD1A005D219B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C92B3C2B2621AD1B005D219B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92B3C2E2621AD1B005D219B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		C92B3C402621AD1C005D219B /* NHLPlayersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHLPlayersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92B3C442621AD1C005D219B /* NHLPlayersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHLPlayersUITests.swift; sourceTree = "<group>"; };
 		C92B3C462621AD1C005D219B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92B3C582621AF12005D219B /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		C92B3C602621B35D005D219B /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		C92B3C652621BA4F005D219B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C92B3C6A2621FADE005D219B /* TeamNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamNameViewController.swift; sourceTree = "<group>"; };
+		C92B3C6F2621FFA0005D219B /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				C92B3C222621AD1A005D219B /* AppDelegate.swift */,
 				C92B3C242621AD1A005D219B /* SceneDelegate.swift */,
-				C92B3C262621AD1A005D219B /* ViewController.swift */,
+				C92B3C582621AF12005D219B /* PlayersViewController.swift */,
+				C92B3C602621B35D005D219B /* PlayerDetailsViewController.swift */,
+				C92B3C652621BA4F005D219B /* Player.swift */,
+				C92B3C6A2621FADE005D219B /* TeamNameViewController.swift */,
+				C92B3C6F2621FFA0005D219B /* Team.swift */,
 				C92B3C282621AD1A005D219B /* Main.storyboard */,
 				C92B3C2B2621AD1B005D219B /* Assets.xcassets */,
 				C92B3C2D2621AD1B005D219B /* LaunchScreen.storyboard */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92B3C272621AD1A005D219B /* ViewController.swift in Sources */,
 				C92B3C232621AD1A005D219B /* AppDelegate.swift in Sources */,
 				C92B3C252621AD1A005D219B /* SceneDelegate.swift in Sources */,
+				C92B3C612621B35D005D219B /* PlayerDetailsViewController.swift in Sources */,
+				C92B3C662621BA4F005D219B /* Player.swift in Sources */,
+				C92B3C702621FFA0005D219B /* Team.swift in Sources */,
+				C92B3C6B2621FADE005D219B /* TeamNameViewController.swift in Sources */,
+				C92B3C592621AF12005D219B /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
